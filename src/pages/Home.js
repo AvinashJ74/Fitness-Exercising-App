@@ -19,7 +19,7 @@ const Home = () => {
       setExercises={setExercises}
       bodyPart={bodyPart} 
       exercises={exercises}/>
-      
+      sfgafh
     </Box>
   );
 }
