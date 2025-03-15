@@ -3,11 +3,13 @@ import { Stack, Typography } from '@mui/material';
 import Icon from '../assets/icons/gym.png';
 import back1 from '../assets/icons/back1.png';
 import chest1 from '../assets/icons/chest1.png';
+import cardio from '../assets/icons/cardio.png';
 
 const BodyPart = ({ item, setBodyPart, bodyPart }) => {
   const getImageSrc = (part) => {
     if (part.toLowerCase() === 'back') return back1;
     if (part.toLowerCase() === 'chest') return chest1;
+    if (part.toLowerCase() === 'cardio') return cardio;
     return Icon;
   };
 
